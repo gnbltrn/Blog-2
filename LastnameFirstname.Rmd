@@ -2,7 +2,7 @@
 layout: blog
 topic: "02"
 short-topic: Happy git and GitHub
-due-date: 2022-02-03
+due-date: 2023-02-02
 root: ../../
 ---
 
