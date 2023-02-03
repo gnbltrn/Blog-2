@@ -1,0 +1,40 @@
+---
+layout: blog
+topic: "02"
+short-topic: Happy git and GitHub
+due-date: 2023-02-02
+root: ../../
+---
+
+Summary of Chapter 6.  Install Git.
+
+This chapter includes instructions on how to install Git Bash.  Given that I am new to github and git, I found it somewhat confusing at first.  I have been washing YouTube videos to familiarize myself with github and run into several videos about Git Bash, so after I completed the instruction and installed Git in my PC, I then realized they were the same.  
+Summary
+1.	Verify if you already have Git and consider updating if you have al older version.
+
+git --version
+## git version 2.39.1
+
+2. Install Git for Windows
+6.2 Windows
+Option 1 (highly recommended) from this link:
+https://gitforwindows.org/
+Option 2 (recommended): Install Git for Windows via the Chocolatey package manager. I personally did not use this option.
+choco install git.install
+
+3.	Updating Git for Windows if you have an old version
+git update-git-for-windows
+
+The rest of the chapter if for Mac and Linux users, which I didn’t use.
+
+## Prompt:
+
+git and Github are tools for helping with versioning of files in collaborative efforts as well as archiving entries for your future self. 
+Unfortunately working with git isn't always completely straightforward. 
+Jenny Bryan's book "Happy git and github with R" helps with that. The book is available from [http://happygitwithr.com/](http://happygitwithr.com/). Have a look over the index and pick one of the chapters for a more in-depth read.
+
+Write a blog post answering the following questions: 
+
+1. **Write a short (100-150 words) summary of the chapter you read in-depth.**
+2. **Looking back at all of the team projects you have been involved in, describe the biggest mishap you had. Could that have been avoided using git? How?**. 
+3. **Give an example of one new git feature that you learned about from Jenny Bryan's book.**.
